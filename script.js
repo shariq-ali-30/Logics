@@ -31,8 +31,8 @@
 // console.log(password)
 
 // Logic to find remaining days in next Ramadan
-var nextRamadan = new Date("7 Feb 2027")
-var nextRamadanMilisec = nextRamadan.getTime()
-var currentTimeMillisec = new Date().getTime()
-var remainingDays = Math.ceil((nextRamadanMilisec - currentTimeMillisec) / 1000 / 60 / 60 / 24)
-console.log(remainingDays)
+// var nextRamadan = new Date("7 Feb 2027")
+// var nextRamadanMilisec = nextRamadan.getTime()
+// var currentTimeMillisec = new Date().getTime()
+// var remainingDays = Math.round((nextRamadanMilisec - currentTimeMillisec) / 1000 / 60 / 60 / 24)
+// console.log(remainingDays)
